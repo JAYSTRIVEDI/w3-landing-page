@@ -87,8 +87,8 @@
 #note small {
   position: relative;
   display: inline-block;
-  animation: mymove 20s infinite;
-  animation-timing-function: all;
+  animation: mymove 30s infinite; /* Increased duration to 30 seconds */
+  animation-timing-function: linear; /* Set the timing function to linear for consistency */
 }
 
 @keyframes mymove {
